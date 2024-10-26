@@ -1,9 +1,10 @@
 
 
 body {
-    font-family: "Playwrite GB S", serif;
+  font-family: "Playwrite GB S", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400; /* Replace with the desired weight */
   font-style: normal;
-  }
+}
+
   
