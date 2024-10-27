@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import './App.css';
 import myimg from './assets/myimg.png';
 
@@ -21,7 +21,10 @@ const App = () => {
       <section id="about" className="py-20 bg-white text-center h-screen">
         <h2 className="text-3xl font-semibold text-gray-800">About Me</h2>
         <p className="mt-4 text-gray-600">
-          A short description about yourself.
+        Frontend Developer & Cybersecurity Enthusiast 👨‍💻, focused on crafting impactful, user-friendly web applications. 🚀 Currently diving deep into the MERN stack
+        (MongoDB, Express.js, React, Node.js) to sharpen my full-stack development skills. 💡 Passionate about blending creativity with problem-solving to deliver efficient and engaging user experiences.
+        📚 Always eager to learn, grow, and collaborate on innovative projects that push boundaries in tech.
+        🔥 Excited to contribute to cutting-edge solutions while continuously improving my expertise in both frontend development and cybersecurity.
         </p>
       </section>
       <section id="projects" className="py-20 bg-gray-100 text-center h-screen">
