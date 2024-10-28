@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       <nav
-        className="bg-transparent text-white p-4 shadow-lg w-[90%] mt-4 fixed top-4 rounded-lg border border-orange-500 backdrop-blur-md"
+        className="bg-transparent text-[#4A7766] p-4 shadow-lg w-[90%] mt-4 fixed top-4 rounded-lg border border-orange-500 backdrop-blur-md"
         style={{
           boxShadow: "0 0 15px rgba(255, 165, 0, 0.7)",
         }}
