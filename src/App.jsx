@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"; // Import icons
 import './App.css';
 import myimg from './assets/myimg.png';
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -40,31 +41,8 @@ const App = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-[#ECE7E2] text-center h-screen">
-        <motion.h2 
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7 }}
-          className="text-3xl font-semibold text-gray-800"
-        >
-          About Me
-        </motion.h2>
-
-        <motion.p 
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="mt-4 text-gray-600 max-w-lg mx-auto"
-        >
-          Frontend Developer & Cybersecurity Enthusiast 👨‍💻, focused on crafting impactful, user-friendly web applications. 🚀 Currently diving deep into the MERN stack (MongoDB, Express.js, React, Node.js) to sharpen my full-stack development skills.
-        </motion.p>
-
-        {/* Icons with Hover Effects */}
-        <div className="flex justify-center mt-6 space-x-6 text-2xl text-gray-600">
-          <motion.a href="https://github.com" whileHover={{ scale: 1.2, rotate: 15 }}><FaGithub /></motion.a>
-          <motion.a href="https://linkedin.com" whileHover={{ scale: 1.2, rotate: 15 }}><FaLinkedin /></motion.a>
-          <motion.a href="mailto:example@example.com" whileHover={{ scale: 1.2, rotate: 15 }}><FaEnvelope /></motion.a>
-        </div>
+      <section id="about" className="pb-20 bg-[#ECE7E2] text-center h-screen">
+       <About/>
       </section>
 
       {/* Projects Section */}
