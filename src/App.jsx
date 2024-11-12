@@ -27,7 +27,7 @@ const App = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-4xl font-bold text-gray-800 mt-4 typing-animation"
         >
-          Welcome to My Portfolio
+          Welcome to website
         </motion.h1>
 
         <motion.p 
