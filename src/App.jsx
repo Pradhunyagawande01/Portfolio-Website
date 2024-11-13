@@ -62,7 +62,7 @@ const App = () => {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="mt-4 text-gray-600"
         >
-          Showcase your recent work or projects here.
+          Showcase your recent work/projects here.
         </motion.p>
       </section>
 
