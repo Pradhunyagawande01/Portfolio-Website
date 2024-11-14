@@ -87,11 +87,11 @@ const App = () => {
         </motion.p>
 
         {/* Contact Icons */}
-        <div className="flex justify-center mt-6 space-x-6 text-2xl text-gray-600">
+        {/* <div className="flex justify-center mt-6 space-x-6 text-2xl text-gray-600">
           <motion.a href="https://github.com" whileHover={{ scale: 1.2, rotate: 15 }}><FaGithub /></motion.a>
           <motion.a href="https://linkedin.com" whileHover={{ scale: 1.2, rotate: 15 }}><FaLinkedin /></motion.a>
           <motion.a href="mailto:example@example.com" whileHover={{ scale: 1.2, rotate: 15 }}><FaEnvelope /></motion.a>
-        </div>
+        </div> */}
       </section>
     </div>
   );
