@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import TypingEffect from "../Components/TypingEffect";
+import Bg from "../Components/Bg";
 
 const Landing = () => {
   return (
     <div className="relative h-screen text-black">
       {/* Subtle Background Shapes */}
-     
+     <Bg />
 
       <section className="relative z-0 flex flex-col md:flex-row items-center justify-center md:px-24 top-0" >
         <motion.div
