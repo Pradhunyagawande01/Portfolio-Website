@@ -3,7 +3,7 @@ import Bg from "../Components/Bg";
 
 const About = () => {
   return (
-    <div className="text-black h-screen relative flex items-center justify-center overflow-hidden">
+    <div className="text-white h-screen relative flex items-center justify-center overflow-hidden">
       {/* Background Component */}
       <Bg />
 

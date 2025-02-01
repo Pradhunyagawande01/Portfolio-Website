@@ -98,7 +98,7 @@ const ParticlesBackground = () => {
         },
         detectRetina: true,
       }}
-      className="inset-0"
+      className=""
     />
   );
 };

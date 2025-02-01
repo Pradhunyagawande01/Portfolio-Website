@@ -12,7 +12,7 @@ import "./App.css";
 const App = () => {
   return (
     <Router>
-    <Navbar />
+    
     <main>
       <section id="home" className="">
         <Landing />
